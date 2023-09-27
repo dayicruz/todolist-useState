@@ -1,0 +1,36 @@
+.listaTodo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 0;
+}
+.listaTodo .todo-filled {
+  -webkit-text-decoration: line-through 4px red;
+          text-decoration: line-through 4px red;
+}
+.listaTodo-li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px dashed lightgray;
+}
+.listaTodo-li--button {
+  background-color: rgb(211, 53, 53);
+  color: white;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 8rem;
+}
+.listaTodo-li--button:hover {
+  background-color: rgba(123, 27, 27, 0.627);
+}/*# sourceMappingURL=TodoList.css.map */

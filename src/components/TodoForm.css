@@ -1,0 +1,29 @@
+.form {
+  display: flex;
+}
+.form-input {
+  background-color: #1c4814;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  width: 30rem;
+  border: 0;
+}
+.form-button {
+  background-color: rgb(141, 217, 59);
+  color: white;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 15rem;
+  border: 0;
+}
+.form-button:hover {
+  background-color: rgb(100, 234, 192);
+}/*# sourceMappingURL=TodoForm.css.map */
